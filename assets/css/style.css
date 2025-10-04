@@ -1,0 +1,80 @@
+:root {
+  --indigo: #540d6eff;     
+  --red-crayola: #ee4266ff;
+  --sunglow: #ffd23fff;     
+  --honeydew: #f3fcf0ff;     
+  --black-olive: #1f271bff;  
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color:  var(--indigo);
+}
+
+.card {
+    color: rgba(255, 255, 255, 0.931);
+    width: 28rem;
+    height: 38rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+    background: var(--black-olive);
+    padding: 0.8rem 0.8rem;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Bitter', serif;
+    border: solid 2px var(--red-crayola);
+    
+}
+
+.card .img-card {
+    height: 18.5rem;
+    width: 100%;
+    background-image: url(../imgs/tameimpala.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-title {
+    color: var(--sunglow);
+    font-size: 1.6rem;
+    padding: 8px;
+    border-top: solid 1px var(--red-crayola);
+}
+
+.card button {
+    background: #e2a30b;
+    color: var(--honeydew);
+    border-radius: 5px;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.total-section {
+    width: 20rem;
+    padding: 35px;
+}
+
+.total-section p {
+    color: var(--sunglow);
+    font-size: 1.6rem;
+}
+
+.total-section span {
+    color: var(--sunglow);
+    font-size: 1.6rem;
+}
